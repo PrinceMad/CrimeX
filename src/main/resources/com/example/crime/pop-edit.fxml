@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #c9ddff;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.crime.PopEdit">
+    <children>
+        <Label alignment="CENTER_RIGHT" layoutX="87.0" layoutY="78.0" prefHeight="30.0" prefWidth="90.0" text="Details:">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <TextArea fx:id="text" layoutX="190.0" layoutY="78.0" prefHeight="159.0" prefWidth="295.0" />
+        <Label fx:id="lb" alignment="CENTER" layoutX="244.0" layoutY="247.0" prefHeight="30.0" prefWidth="113.0">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Button layoutX="265.0" layoutY="287.0" mnemonicParsing="false" onAction="#UpdateReq" prefHeight="30.0" prefWidth="70.0" style="-fx-background-color: #1e3b34;" text="Update" textFill="WHITE">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+    </children>
+
+</AnchorPane>
